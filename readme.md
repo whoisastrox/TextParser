@@ -39,3 +39,4 @@ The process is pretty straightforward, as we
 ## Conclusion
 This was a pretty easy problem, I've personally chosen to include the axios library to manage http(s) requests as it was cleaner than using the http(s) modules included in Node.JS.
 While this might be an acceptable solution, I feel like many things could be improved.
+An example text file has been provided (commedia.txt).
