@@ -74,7 +74,7 @@ switch (answer.toLowerCase()) {
 }
 
 if(includeNums == false){
-    let nums = RegExp(/[0-9]+/g)
+    let nums = RegExp(/[0-9]+/gu)
     data = data.replaceAll(nums, "")
     console.log(`You've decided to not include numbers`)
 }else{
@@ -85,7 +85,13 @@ if(includeNums == false){
 cli.close()
 
 //counting spaces
-let spacecount = data.split(" ").length
+let spacecount = 0
+
+for(let i = 0; i<data.length; i++){
+    if(data[i]== " "){
+        spacecount++
+    }
+}
 
 //counting letters
 let lettercount = 0
@@ -99,7 +105,8 @@ for(let i = 0; i<data.length; i++){
 
 //removing everything but words
 
-const notwords = RegExp(/[\W]+/g)
+const notwords = RegExp(/[\W]+/gu)
+
 let parsed = data
     .replaceAll(notwords, " ")
     .trimEnd()
