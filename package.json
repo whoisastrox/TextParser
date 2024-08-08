@@ -1,5 +1,5 @@
 {
-  "name": "thing",
+  "name": "textparser",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "type": "module",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "@types/node": "^22.1.0",
