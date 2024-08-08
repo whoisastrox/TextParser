@@ -6,9 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "author": "",
+  "author": "whoisastrox",
   "license": "MIT",
-  "description": "",
+  "description": "Node.JS CLI app showcasing features like RegExp and filesystem management",
+  "repository": "https://github.com/whoisastrox/TextParser",
+  "readme": "readme.md",
   "dependencies": {
     "@types/node": "^22.1.0",
     "axios": "^1.7.3",

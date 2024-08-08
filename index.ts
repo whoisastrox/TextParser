@@ -1,11 +1,3 @@
-/*
-legga un file da un path inserito in input dall’utente (può essere un path locale o un
-indirizzo web)
-- il numero totale di parole nel file
-- il numero di lettere nel file
-- il numero di spazi nel file
-- le parole che si ripetono più di 10 volte e indicare il numero di volte in cui si ripete.
-*/
 import readline from 'node:readline/promises';
 
 import { stat, readFile } from 'node:fs/promises'
